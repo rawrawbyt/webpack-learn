@@ -1,0 +1,26 @@
+{
+  "name": "webpack-learn",
+  "version": "1.0.0",
+  "description": "webpack学习\r ## 安装\r `mkdir webpack-learn && cd webpack-learn`\r `npm i npm -g`\r `npm init -y`\r `npm install webpack --save-dev`\r `npm install webpack@<version> --save-dev`",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rawrawbyt/webpack-learn.git"
+  },
+  "keywords": [],
+  "author": "rawraw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rawrawbyt/webpack-learn/issues"
+  },
+  "homepage": "https://github.com/rawrawbyt/webpack-learn#readme",
+  "devDependencies": {
+    "webpack": "^2.6.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.4"
+  }
+}
