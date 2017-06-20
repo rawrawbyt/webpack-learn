@@ -8,7 +8,7 @@ webpack学习
 `npm install webpack@<version> --save-dev`
 ## 创建demo
 新建app 子目录下创建一个 index.js 文件。
-```js [index.js]
+```js
 function component () {
 	var element = document.createElement('div');
 
@@ -20,7 +20,7 @@ function component () {
 
 document.body.appendChild(component());
 ```
-```html [index.html]
+```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
